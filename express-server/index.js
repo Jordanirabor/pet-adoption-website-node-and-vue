@@ -38,7 +38,6 @@ app.get('/animals', (req, res) => {
         image: 'https://placedog.net/500/500',
         description: `A little shy at first, but won't leave your side soon enough.` // note the backticks so we don't have to escape!
       },
-  
       {
         id: 3,
         name: 'Sprinkles',
@@ -46,7 +45,6 @@ app.get('/animals', (req, res) => {
         image: 'https://placekitten.com/550/550',
         description: `Needs diabetes shot. Roll the insulin in your hand, don't shake it.`
       },
-  
       {
         id: 4,
         name: 'Garbage',
