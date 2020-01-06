@@ -1,11 +1,17 @@
 import Vue from 'vue';
 import App from './App.vue';
-import router from './router';
+import VueRouter from 'vue-router'
+import routes from './routes';
 import Buefy from 'buefy';
 import 'buefy/dist/buefy.css';
 
 Vue.use(Buefy);
+Vue.use(VueRouter)
 Vue.config.productionTip = false
+
+const router = new VueRouter({
+  routes
+})
 
 new Vue({
   router,
