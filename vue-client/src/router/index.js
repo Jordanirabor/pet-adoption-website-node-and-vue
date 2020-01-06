@@ -1,11 +1,15 @@
 import VueRouter from 'vue-router'
-import MainLayout from '../layouts/MainLayout'
+import Home from '../Home'
 
 
 const routes = [
     {
-        path: '/', component: MainLayout
+        path: '/', component: Home
     }
 ]
 
-const router = new VueRouter({})
+const router = new VueRouter({
+    routes
+})
+
+export default router
