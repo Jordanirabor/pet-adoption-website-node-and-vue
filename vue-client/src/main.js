@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import App from './App.vue';
-import VueRouter from 'vue-router'
 import routes from './routes';
+import VueRouter from 'vue-router'
 import Buefy from 'buefy';
 import 'buefy/dist/buefy.css';
 
